@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.0.4'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -32,6 +32,7 @@ gem 'mysql2'
 
 group :development do
   gem 'rspec-rails', '2.0.1'
+  gem 'autotest'
 end
 
 group :test do
