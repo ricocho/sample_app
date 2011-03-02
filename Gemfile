@@ -6,6 +6,7 @@ gem 'rails', '3.0.4'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'gravatar_image_tag'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -39,4 +40,5 @@ end
 group :test do
   gem 'rspec', '2.0.1'
   gem 'webrat', '0.7.1'
+  gem 'factory_girl_rails', '1.0' 
 end
